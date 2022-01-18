@@ -26,7 +26,7 @@ from youtube_dl.utils import DownloadError, ExtractorError, GeoRestrictedError
 from youtubesearchpython import VideosSearch
 
 from userge import Config, Message, pool, userge
-from userge.plugins.custom.utils import (
+from utils import (
     check_owner,
     get_file_id,
     get_response,
