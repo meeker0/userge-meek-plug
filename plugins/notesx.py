@@ -14,7 +14,7 @@ from typing import Dict, Tuple
 from pyrogram.errors import BadRequest, Forbidden
 
 from userge import Config, Message, get_collection, userge
-from utils import SafeDict, get_file_id, parse_buttons
+from userge.plugins.custom.utils import SafeDict, get_file_id, parse_buttons
 
 NOTES_COLLECTION = get_collection("notes")
 CHANNEL = userge.getCLogger(__name__)
