@@ -36,7 +36,7 @@ from utube_inline import (
 )
 from stylish import Styled, font_gen
 from ivotings import vote_buttons
-from redditdl import reddit_thumb_link
+# from redditdl import reddit_thumb_link
 from notesx import get_inote
 
 CHANNEL = userge.getCLogger(__name__)
