@@ -6,7 +6,7 @@
 # modified by github code-rgb TG - @DeletedUser420
 
 from userge import Message, userge
-from utils import rand_array
+from userge.plugins.custom.utils import rand_array
 
 
 class Styled:
