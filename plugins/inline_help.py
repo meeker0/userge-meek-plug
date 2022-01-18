@@ -9,7 +9,7 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
 from userge import Config, Message, userge
-from userge.plugins.custom.utils import sublists
+from utils import sublists
 
 HELP_BUTTONS = None
 OwnerFilter = filters.user(list(Config.OWNER_ID))
