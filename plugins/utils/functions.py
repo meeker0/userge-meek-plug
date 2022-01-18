@@ -9,7 +9,7 @@ from pyrogram import emoji
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import CallbackQuery
 
-from ..config import Config
+from userge.config import Config
 from .progress import progress
 from .tools import runcmd, take_screen_shot
 
