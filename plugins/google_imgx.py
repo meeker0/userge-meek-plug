@@ -17,7 +17,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import InputMediaDocument, InputMediaPhoto
 
 from userge import Config, Message, pool, userge
-from userge.plugins.custom.utils import sublists
+from utils import sublists
 
 from .uploads import doc_upload, photo_upload
 
