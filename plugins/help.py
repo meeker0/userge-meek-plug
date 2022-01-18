@@ -21,9 +21,9 @@ from youtubesearchpython import VideosSearch
 
 from userge import Config, Message, get_collection, userge
 from userge.core.ext import RawClient
-from userge.plugins.custom.utils import get_file_id, get_response
-from userge.plugins.custom.utils import parse_buttons as pb
-from userge.plugins.custom.utils import rand_key
+from utils import get_file_id, get_response
+from utils import parse_buttons as pb
+from utils import rand_key
 
 from .bot.alive import Bot_Alive
 from .bot.gogo import Anime
