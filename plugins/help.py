@@ -26,18 +26,18 @@ from utils import parse_buttons as pb
 from utils import rand_key
 
 from .bot.alive import Bot_Alive
-from .bot.gogo import Anime
-from .bot.utube_inline import (
+from gogo import Anime
+from utube_inline import (
     download_button,
     get_yt_video_id,
     get_ytthumb,
     result_formatter,
     ytsearch_data,
 )
-from .fun.stylish import Styled, font_gen
-from .jutsu.ivotings import vote_buttons
-from .misc.redditdl import reddit_thumb_link
-from .utils.notes import get_inote
+from stylish import Styled, font_gen
+from ivotings import vote_buttons
+from redditdl import reddit_thumb_link
+from notesx import get_inote
 
 CHANNEL = userge.getCLogger(__name__)
 
