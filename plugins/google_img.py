@@ -34,7 +34,7 @@ class Colors:
 
 
 @userge.on_cmd(
-    "gpic",
+    "gimgx",
     about={
         "header": "Google Image Downloader",
         "description": "Search and download images from google and upload to telegram",
@@ -46,14 +46,14 @@ class Colors:
             "-down": "download only",
             "colors": "any color in (⚙️ Color)",
         },
-        "usage": "{tr}gpic [flags] [query|reply to text]",
+        "usage": "{tr}gimgx [flags] [query|reply to text]",
         "color": ["-" + _ for _ in Colors.choice],
         "examples": [
-            "{tr}gpic wallpaper",
-            "{tr}gpic -red wallpaper <red wallpapers>",
-            "{tr}gpic tigers <upload 5 pics as gallery>",
-            "{tr}gpic -d -l20 tigers <upload 20 pics as document>",
-            "{tr}gpic -gif rain <download 5 gifs>",
+            "{tr}gimgx wallpaper",
+            "{tr}gimgx -red wallpaper <red wallpapers>",
+            "{tr}gimgx tigers <upload 5 pics as gallery>",
+            "{tr}gimgx -d -l20 tigers <upload 20 pics as document>",
+            "{tr}gimgx -gif rain <download 5 gifs>",
         ],
     },
     del_pre=True,
